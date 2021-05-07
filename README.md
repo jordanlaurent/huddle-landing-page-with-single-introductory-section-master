@@ -27,8 +27,8 @@ This is a solution to the [Huddle landing page with a single introductory sectio
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/jordanlaurent/profile-card-component-main)
-- Live Site URL: [Add live site URL here](https://jordanlaurent.github.io/profile-card-component-main/)
+- Solution URL: [Add solution URL here](https://github.com/jordanlaurent/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [Add live site URL here](https://jordanlaurent.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 
