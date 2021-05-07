@@ -2,7 +2,7 @@ body{width: 100%; margin: 0; background-image: url("./images/bg-desktop.svg");ba
 /* header */
 header{padding: 4%;}
 /* section */
-section{display: flex; padding: 10%;}
+.section{display: flex; padding: 10%;}
 /* aside */
 
 /* article */
@@ -23,13 +23,13 @@ button{color: hsl(257, 40%, 49%);}
 @media  screen and (max-width: 1440px) { 
     div img{margin-left: 14%;padding-top: 1%;width: -50px;}
     body{background-size: auto;}
-    section{display: flex; padding: 0%;}
+    .section{display: flex; padding: 0%;}
 }
 
 
 @media  screen and (max-width: 1156px) { 
 body{background-image: url("./images/bg-mobile.svg");}
-section{display: flex; flex-direction: column;width: 100%; text-align: center;padding: 0%;}
+.section{display: flex; flex-direction: column;width: 100%; text-align: center;padding: 0%;}
 div img{margin: 0; padding: 10%;width: 80%;}
 h2{font-size: 23px;padding: 0%;}
 p{padding: 0%;}
