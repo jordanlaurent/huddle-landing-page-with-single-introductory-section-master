@@ -1,0 +1,42 @@
+body{width: 100%; margin: 0; background-image: url("./images/bg-desktop.svg");background-size: cover;background-repeat: no-repeat; background-color: hsl(257, 40%, 49%);}
+/* header */
+header{padding: 4%;}
+/* section */
+section{display: flex; padding: 10%;}
+/* aside */
+
+/* article */
+article{margin-left: 10%;}
+h1{padding-right: 20%;font-size: 40px;}
+p{padding-right: 23%;padding-bottom: 3%;}
+/* button*/
+button{border: 5px solid white; border-radius: 20px;padding-left:10%; padding-right: 10%;padding-top: 2%;padding-bottom: 2%}
+
+/* footer*/
+footer{position: fixed; right: 14%; bottom: 4%;display: flex;}
+i{border-radius: 50%; border: 1px solid white; padding:25%;margin: 15%;}
+
+/* color */
+body{color: white;}
+button{color: hsl(257, 40%, 49%);}
+
+@media  screen and (max-width: 1440px) { 
+    aside img{margin-left: 14%;padding-top: 1%;width: -50px;}
+    body{background-size: auto;}
+    section{display: flex; padding: 0%;}
+}
+
+
+@media  screen and (max-width: 1156px) { 
+body{background-image: url("./images/bg-mobile.svg");}
+section{display: flex; flex-direction: column;width: 100%; text-align: center;padding: 0%;}
+aside img{margin: 0; padding: 10%;width: 80%;}
+h1{font-size: 23px;padding: 0%;}
+p{padding: 0%;}
+p{font-size: 14px;padding-bottom: 3%;}
+article{margin: 0%;padding-left: 15%;padding-right: 15%;}
+header img{width: 50%;padding-top: 2%;padding-left: 2%;}
+button{padding-left:20%; padding-right: 20%;padding-top: 3%;padding-bottom: 3%}
+i{right: 300%; padding: 15%;}
+footer{ right: 55%;}
+}
